@@ -19,6 +19,7 @@ export const navItems = [
       "Maalaussablunat",
       "Polttoleimasimet",
       "Nimineulat ja rintamerkit",
+      "Alue kartat",
       "Ovisummeritaulut",
       "Muistolaatat ja kirjaimet, Koristeet",
       "Postilaatikkokilvet ja Talonnumerot",
