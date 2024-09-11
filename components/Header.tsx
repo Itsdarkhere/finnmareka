@@ -27,7 +27,7 @@ export const navItems = [
       "UIMAHALLIOPASTEET",
       "AUTOTEIPPAUKSET",
       "Irtokirjaimet",
-      "Irtokirjaimet sisälle"
+      "Irtokirjaimet sisalle"
     ],
   },
   {
