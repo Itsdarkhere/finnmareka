@@ -61,7 +61,7 @@ export default function Header() {
     <div className=" w-full gap-3 bg-header-pattern bg-repeat flex flex-col justify-center items-center">
       <header className=' max-w-7xl p-4 w-full  text-white flex justify-between items-center'>
         <Link href={"/"}>
-          <h1 className='text-3xl text-white font-bold'>FINNMareka Oy</h1>
+          <h1 className=' text-xl md:text-3xl text-white font-bold'>FINNMAREKA Oy</h1>
           <p className='text-sm text-white'>Leimasintehdas, kilpitehdas, kaivertamo</p>
         </Link>
         <button
