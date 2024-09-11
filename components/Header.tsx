@@ -50,8 +50,8 @@ export default function Header() {
   };
 
   return (
-    <>
-      <header className='bg-blue-600 text-white p-4 flex justify-between items-center'>
+    <div className=" w-full gap-3 bg-blue-600 flex flex-col justify-center items-center">
+      <header className=' max-w-7xl p-4 w-full  text-white flex justify-between items-center'>
         <div>
           <h1 className='text-3xl font-bold'>FINNMareka Oy</h1>
           <p className='text-xl'>Leimasintehdas, kilpitehdas, kaivertamo</p>
@@ -64,7 +64,7 @@ export default function Header() {
       </header>
 
       {isMenuOpen && (
-        <nav className='bg-gray-100 p-4'>
+        <nav className='bg-gray-100 max-w-7xl w-full p-4'>
           <ul className='space-y-2'>
             {navItems.map((item) => (
               <li key={item.name} className='border-b border-gray-200 pb-2'>
@@ -113,6 +113,6 @@ export default function Header() {
           </ul>
         </nav>
       )}
-    </>
+    </div>
   );
 }
