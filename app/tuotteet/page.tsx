@@ -11,7 +11,7 @@ export default function Tuotteet() {
       <main className="flex flex-col justify-start items-center">
         <h1 className="text-4xl md:text-6xl pb-6 pt-2 text-white font-bold text-center">Tuotteet</h1>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-          {productCategories.map((category) => (
+          {productCategories.map((category, index) => (
             <section
               key={index}
               className='bg-white cursor-pointer rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105'
