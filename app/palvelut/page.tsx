@@ -15,7 +15,7 @@ export default function Palvelut() {
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {services.map((service, index) => (
             <section
-              key={service}
+              key={index}
               className='bg-white cursor-pointer rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105'
             >
               <div className='h-48 bg-gray-200 relative'>

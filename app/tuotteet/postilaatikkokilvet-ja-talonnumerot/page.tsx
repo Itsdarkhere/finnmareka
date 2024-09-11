@@ -1,4 +1,3 @@
-import { Mail, Phone, Printer } from 'lucide-react';
 
 const mailboxTypes = [
   "Stala PL3 JA PL 4",

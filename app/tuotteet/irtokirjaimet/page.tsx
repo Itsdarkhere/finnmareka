@@ -1,9 +1,7 @@
 import {
-  Type,
   Layers,
   PenTool,
   Activity,
-  Image,
   AlertTriangle,
 } from "lucide-react";
 
