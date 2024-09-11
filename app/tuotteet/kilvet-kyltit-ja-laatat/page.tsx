@@ -21,14 +21,14 @@ export default function KilvetKyltitLaatat() {
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-white">KILVET ja OPASTEET</h1>
 
       <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-500">KILVET, OPASTEET, KAIVERRUSTYÖT</h2>
-        <p className="mb-4 text-lg text-gray-500 leading-relaxed">Kilpiä tarvitaan ohjaamaan, varottamaan, kieltämään, kehottamaan, muistuttamaan, tiedottamaan, myymään ja mainostamaan. Kilpien materiaalina voi olla mm. muovi, metalli tai puu. Metalleista käytetyimmät ovat alumiini, messinki ja teräs.</p>
-        <p className="mb-4 text-lg text-gray-500 leading-relaxed">Kaiverrustyöt ja tarratekstit toteutamme tietokoneilla, jotka mahdollistavat eri tekstityyppien ja logojen käytön. Valmistamme monenlaisia erikoistuotteita myös pieniä eriä ja vaativia erikoistöitä. Me teemme sinetit, stanssit, muotit ja muut erikoistuotteet. Levyt leikkaamme haluamaasi kokoon ja muotoon.</p>
-        <p className="font-semibold text-lg text-blue-600">Kannattaa kysyä meiltä.</p>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white">KILVET, OPASTEET, KAIVERRUSTYÖT</h2>
+        <p className="mb-4 text-lg text-gray-300 leading-relaxed">Kilpiä tarvitaan ohjaamaan, varottamaan, kieltämään, kehottamaan, muistuttamaan, tiedottamaan, myymään ja mainostamaan. Kilpien materiaalina voi olla mm. muovi, metalli tai puu. Metalleista käytetyimmät ovat alumiini, messinki ja teräs.</p>
+        <p className="mb-4 text-lg text-gray-300 leading-relaxed">Kaiverrustyöt ja tarratekstit toteutamme tietokoneilla, jotka mahdollistavat eri tekstityyppien ja logojen käytön. Valmistamme monenlaisia erikoistuotteita myös pieniä eriä ja vaativia erikoistöitä. Me teemme sinetit, stanssit, muotit ja muut erikoistuotteet. Levyt leikkaamme haluamaasi kokoon ja muotoon.</p>
+        <p className="font-semibold text-lg text-white">Kannattaa kysyä meiltä.</p>
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-blue-500">Suosituimmat tuotteet</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-white">Suosituimmat tuotteet</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {productCategories.map((category, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
@@ -43,7 +43,7 @@ export default function KilvetKyltitLaatat() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-500">Tuotevalikoima</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white">Tuotevalikoima</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
             "Kilvet", "Opasteet", "Tienviitat", "Aluekartat", "Postilaatikkokilvet",
@@ -62,7 +62,7 @@ export default function KilvetKyltitLaatat() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-500">Erikoistuotteet</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white">Erikoistuotteet</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-2 text-blue-600">Metalliset kilvet</h3>

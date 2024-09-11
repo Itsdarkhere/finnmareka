@@ -63,7 +63,7 @@ const products = [
 export default function Maalausablunat() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
-      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>
+      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-white'>
         MAALAUSSABLUUNAT
       </h1>
 
@@ -76,7 +76,7 @@ export default function Maalausablunat() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-white'>
           Sabluunatuotteet ja -kategoriat
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>

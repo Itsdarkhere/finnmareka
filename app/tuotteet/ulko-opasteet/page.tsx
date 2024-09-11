@@ -30,7 +30,7 @@ const outdoorSignCategories = [
 export default function UlkoOpasteet() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
-      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>
+      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-white'>
         ULKO-OPASTEET
       </h1>
 
@@ -44,7 +44,7 @@ export default function UlkoOpasteet() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-white'>
           Ulko-opasteiden kategoriat
         </h2>
         <div className='grid md:grid-cols-2 gap-8'>

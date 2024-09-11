@@ -37,7 +37,7 @@ const attachmentMethods = [
 export default function Nimineulat() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
-      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>
+      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-white'>
         NIMINEULAT
       </h1>
 
@@ -52,7 +52,7 @@ export default function Nimineulat() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-white'>
           Nimineulatyypit
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -94,7 +94,7 @@ export default function Nimineulat() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-4 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-4 text-white'>
           Erikoisominaisuudet
         </h2>
         <ul className='space-y-2'>
@@ -117,7 +117,7 @@ export default function Nimineulat() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-4 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-4 text-white'>
           Miksi valita meidän nimineulat?
         </h2>
         <ul className='space-y-2'>

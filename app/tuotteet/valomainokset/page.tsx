@@ -44,7 +44,7 @@ const textTypes = ["IRTOTARROILLA", "VÄRITULOSTEINA", "MUOTOON LEIKATTUNA"];
 export default function Valomainokset() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
-      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>
+      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-white'>
         VALOMAINOKSET
       </h1>
 
@@ -57,7 +57,7 @@ export default function Valomainokset() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-3xl font-semibold mb-6 text-white'>
           Valomainostyypit
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>

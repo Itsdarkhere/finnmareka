@@ -27,18 +27,18 @@ const stampTypes = [
 export default function Leimaisimet() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8'>
-      <h1 className='text-4xl font-bold text-center mb-8'>LEIMASIMET</h1>
+      <h1 className='text-4xl text-white font-bold text-center mb-8'>LEIMASIMET</h1>
 
       <section className='mb-12'>
-        <h2 className='text-2xl font-semibold mb-4'>
+        <h2 className='text-2xl text-white font-semibold mb-4'>
           LEIMASIMET TOIMISTOON JA TEOLLISUUTEEN
         </h2>
-        <p className='mb-4'>
+        <p className='mb-4 text-gray-200'>
           Leimasinvalikoimamme on laaja. Voimme melko varmasti sanoa, että
           toteutamme leimasintarpeesi. Suunnittelemme, kokeilemme, testaamme ja
           valmistamme leimasimia vaativaankin käyttöön.
         </p>
-        <p>
+        <p className="text-gray-200">
           Leimasin valmistetaan yksilöllisesti tilaajan tarpeeseen. Siinä voi
           olla tekstiä, kuva, logo, taulukkopohja melkeinpä mitä tahansa. Hyvä
           leimasin säästää aikaa, on kestävä, sen jälki on terävä ja siisti.
@@ -46,7 +46,7 @@ export default function Leimaisimet() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl font-semibold mb-6'>
+        <h2 className='text-2xl text-white font-semibold mb-6'>
           Suosituimmat leimasintyypit
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -76,7 +76,7 @@ export default function Leimaisimet() {
 
       <div className='grid md:grid-cols-2 gap-8'>
         <section>
-          <h2 className='text-2xl font-semibold mb-4'>
+          <h2 className='text-2xl text-white font-semibold mb-4'>
             Kaikki leimasin tyypit
           </h2>
           <ul className='space-y-2'>
@@ -100,7 +100,7 @@ export default function Leimaisimet() {
               "KUVALEIMASIMET",
               "Automaattileimasimet",
             ].map((item, index) => (
-              <li key={index} className='flex items-center'>
+              <li key={index} className='flex text-gray-300 items-center'>
                 <ChevronRight className='mr-2 text-blue-500' size={16} />
                 {item}
               </li>
@@ -109,7 +109,7 @@ export default function Leimaisimet() {
         </section>
 
         <section>
-          <h2 className='text-2xl font-semibold mb-4'>Merkit ja Mallit</h2>
+          <h2 className='text-2xl text-white font-semibold mb-4'>Merkit ja Mallit</h2>
           <ul className='space-y-2'>
             {[
               "Speed-i-Jet 798",
@@ -121,7 +121,7 @@ export default function Leimaisimet() {
               "Nauhaleimasin",
               "Ruholeima",
             ].map((item, index) => (
-              <li key={index} className='flex items-center'>
+              <li key={index} className='flex text-gray-300 items-center'>
                 <ChevronRight className='mr-2 text-blue-500' size={16} />
                 {item}
               </li>
@@ -164,14 +164,14 @@ export default function Leimaisimet() {
       </section>
 
       <section className='mt-12'>
-        <h2 className='text-2xl font-semibold mb-4'>Lisätarvikkeet</h2>
+        <h2 className='text-2xl text-white font-semibold mb-4'>Lisätarvikkeet</h2>
         <ul className='space-y-2'>
           {[
             "Värit (DISCOT, RAVINTOLAT, TILAISUUDET)",
             "Etiketit",
             "VÄRIRULLAT",
           ].map((item, index) => (
-            <li key={index} className='flex items-center'>
+            <li key={index} className='flex text-gray-300 items-center'>
               <ChevronRight className='mr-2 text-blue-500' size={16} />
               {item}
             </li>

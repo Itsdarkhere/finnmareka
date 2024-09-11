@@ -19,7 +19,7 @@ export default function TietoaMeista() {
       <main className='grid md:grid-cols-3 gap-8'>
         <div className='md:col-span-2'>
           <section className='mb-12'>
-            <h2 className='text-3xl font-bold mb-4 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-4 text-white'>
               Tervetuloa maailmaan minun silmin nähtynä
             </h2>
             <p className='text-lg mb-4'>MERKILLISTÄ MERKINTÄÄ :-)</p>
@@ -38,7 +38,7 @@ export default function TietoaMeista() {
           </section>
 
           <section className='mb-12'>
-            <h2 className='text-2xl font-bold mb-4 text-blue-600'>
+            <h2 className='text-2xl font-bold mb-4 text-white'>
               Asiat kerralla kuntoon
             </h2>
             <p className='mb-4'>

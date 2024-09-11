@@ -56,7 +56,7 @@ const exampleWorks = [
 export default function Tarrat() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
-      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>
+      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-white'>
         TARRAT JA TEIPPAUKSET
       </h1>
 
@@ -80,7 +80,7 @@ export default function Tarrat() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-white'>
           Tuotteet ja palvelut
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -99,7 +99,7 @@ export default function Tarrat() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-white'>
           Esimerkkejä töistämme
         </h2>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>

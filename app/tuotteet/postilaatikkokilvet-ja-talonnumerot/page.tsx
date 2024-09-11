@@ -13,12 +13,12 @@ export default function Postilaatikkokilvet() {
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-8 text-gray-800">
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-white">
         POSTILAATIKKOKILVET JA TALONNUMEROT
       </h1>
 
       <section className="mb-12">
-        <h2 className="text-3xl font-semibold mb-4 text-blue-500">POSTILAATIKKOKILVET</h2>
+        <h2 className="text-3xl font-semibold mb-4 text-white">POSTILAATIKKOKILVET</h2>
         <div className="bg-white rounded-lg shadow-md p-6">
           <h3 className="text-xl font-semibold mb-4">Kilpien värivaihtoehdot</h3>
           <ul className="list-disc list-inside mb-4 space-y-2">
@@ -42,7 +42,7 @@ export default function Postilaatikkokilvet() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-3xl font-semibold mb-4 text-blue-500">TALON NUMEROT ja kirjaimet</h2>
+        <h2 className="text-3xl font-semibold mb-4 text-white">TALON NUMEROT ja kirjaimet</h2>
         <div className="bg-white rounded-lg shadow-md p-6">
           <h3 className="text-xl font-semibold mb-4">IRTONUMEROT</h3>
           <ul className="list-disc list-inside mb-4 space-y-2">

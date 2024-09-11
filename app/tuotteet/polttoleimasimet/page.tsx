@@ -51,12 +51,12 @@ const specialProducts = [
 export default function Polttoleimasimet() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
-      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>
+      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-white'>
         POLTTOLEIMAISIMET
       </h1>
 
       <section className='mb-12'>
-        <h2 className='text-3xl font-semibold mb-6 text-blue-500'>LAATAT</h2>
+        <h2 className='text-3xl font-semibold mb-6 text-white'>LAATAT</h2>
         <div className='bg-white rounded-lg shadow-md p-6'>
           <ul className='space-y-2'>
             {plateTypes.map((type, index) => (
@@ -76,7 +76,7 @@ export default function Polttoleimasimet() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-3xl font-semibold mb-6 text-white'>
           Polttolaitteet
         </h2>
         <div className='grid md:grid-cols-2 gap-8'>
@@ -122,7 +122,7 @@ export default function Polttoleimasimet() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-3xl font-semibold mb-6 text-white'>
           Erikoistuotteet
         </h2>
         <div className='grid md:grid-cols-2 gap-8'>

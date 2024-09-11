@@ -53,7 +53,7 @@ const specialProducts = [
 export default function Liikennemerkit() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
-      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>
+      <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-white'>
         LIIKENNEMERKIT
       </h1>
 
@@ -67,7 +67,7 @@ export default function Liikennemerkit() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-white'>
           Liikennemerkkikategoriat
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -109,7 +109,7 @@ export default function Liikennemerkit() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-6 text-white'>
           Erikoistuotteet ja sisustusideat
         </h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -134,7 +134,7 @@ export default function Liikennemerkit() {
       </section>
 
       <section className='mb-12'>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-4 text-blue-500'>
+        <h2 className='text-2xl md:text-3xl font-semibold mb-4 text-white'>
           Tekniset tiedot
         </h2>
         <ul className='space-y-2'>

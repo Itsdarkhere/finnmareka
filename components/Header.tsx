@@ -14,7 +14,7 @@ export const navItems = [
         { name: "Tarrat ja teippaukset", link: "tarrat-ja-teippaukset" },
         { name: "Valomainokset", link: "valomainokset" },
         { name: "Liikennemerkit ja Tienviitat, lisätarvikkeet", link: "liikennemerkit-ja-tienviitat-lisatarvikkeet" },
-        { name: "Leimasin- ja merkintävärit", link: "leimasin-ja-merkintavarit" },
+        { name: "Leimasin- ja merkintävärit MISSING", link: "leimasin-ja-merkintavarit" },
         { name: "Maalaussablunat", link: "maalaussablunat" },
         { name: "Polttoleimasimet", link: "polttoleimasimet" },
         { name: "Nimineulat ja rintamerkit", link: "nimineulat-ja-rintamerkit" },
@@ -109,7 +109,7 @@ export default function Header() {
                   </div>
                 ) : (
                   <Link
-                    href={`/${item.name.toLowerCase().replace(/ /g, "-")}`}
+                    href={`/${item.link.toLowerCase().replace(/ /g, "-")}`}
                     className='text-blue-600 hover:underline block'
                     onClick={() => setIsMenuOpen(false)}
                   >
