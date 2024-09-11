@@ -11,7 +11,6 @@ export const navItems = [
         { name: "Leimasimet", link: "leimasimet" },
         { name: "Kilvet, Kyltit ja Laatat", link: "kilvet-kyltit-ja-laatat" },
         { name: "Ulko-opasteet", link: "ulko-opasteet" },
-        { name: "Sisäopasteet", link: "sisaopasteet" },
         { name: "Tarrat ja teippaukset", link: "tarrat-ja-teippaukset" },
         { name: "Valomainokset", link: "valomainokset" },
         { name: "Liikennemerkit ja Tienviitat, lisätarvikkeet", link: "liikennemerkit-ja-tienviitat-lisatarvikkeet" },
