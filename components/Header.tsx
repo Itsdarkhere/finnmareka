@@ -5,6 +5,7 @@ import { useState } from "react";
 export const navItems = [
   {
     name: "Tuotteet",
+    link: "tuotteet",
     items: [
       "Leimasimet",
       "Kilvet, Kyltit ja Laatat",
@@ -24,17 +25,18 @@ export const navItems = [
   },
   {
     name: "Palvelut",
+    link: "palvelut",
     items: [
       "Kaiverrustyöt",
       "LASER merkintä ja -leikkaus",
       "Muut erikoistuotteet",
     ],
   },
-  { name: "Esitteet", items: [] },
-  { name: "Tietoa meistä", items: [] },
-  { name: "Yhteystiedot", items: [] },
-  { name: "Tiedostojen siirto-ohjeet", items: [] },
-  { name: "Kuvia", items: [] },
+  { name: "Esitteet", link: "esitteet", items: [] },
+  { name: "Tietoa meistä", link: "tietoa-meista", items: [] },
+  { name: "Yhteystiedot", link: "yhteystiedot", items: [] },
+  { name: "Tiedostojen siirto-ohjeet", link: "tiedostojen-siirto", items: [] },
+  { name: "Kuvia", link: "kuvia", items: [] },
 ];
 
 export default function Header() {

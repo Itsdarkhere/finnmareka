@@ -69,7 +69,7 @@ export default function Mainpage() {
                 </ul>
               ) : (
                 <a
-                  href={`/${item.name.toLowerCase().replace(/ /g, "-")}`}
+                  href={`/${item.link}`}
                   className='text-blue-600 hover:underline inline-block mt-2'
                 >
                   {item.name === "Tietoa meistä"
