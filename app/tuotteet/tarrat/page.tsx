@@ -53,7 +53,7 @@ const exampleWorks = [
   "Linssitarra",
   "Kivenisku tarroitus",
 ];
-export default function TarratTeippaukset() {
+export default function Tarrat() {
   return (
     <div className='max-w-7xl mx-auto px-4 py-8 text-gray-800'>
       <h1 className='text-4xl md:text-5xl font-bold text-center mb-8 text-blue-600'>

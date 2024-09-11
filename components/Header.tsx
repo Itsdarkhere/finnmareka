@@ -23,7 +23,11 @@ export const navItems = [
       "Ovisummeritaulut",
       "Muistolaatat ja kirjaimet, Koristeet",
       "Postilaatikkokilvet ja Talonnumerot",
-      "Painotyöt ja Tulosteet"
+      "Painotyöt ja Tulosteet",
+      "UIMAHALLIOPASTEET",
+      "AUTOTEIPPAUKSET",
+      "Irtokirjaimet",
+      "Irtokirjaimet sisälle"
     ],
   },
   {
