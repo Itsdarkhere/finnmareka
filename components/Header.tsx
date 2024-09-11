@@ -4,47 +4,47 @@ import Link from "next/link";
 import { useState } from "react";
 
 export const navItems = [
-  {
-    name: "Tuotteet",
-    link: "tuotteet",
-    items: [
-      "Leimasimet",
-      "Kilvet, Kyltit ja Laatat",
-      "Ulko-opasteet",
-      "Sisäopasteet",
-      "Tarrat ja teippaukset",
-      "Valomainokset",
-      "Liikennemerkit ja Tienviitat, lisätarvikkeet",
-      "Leimasin- ja merkintävärit",
-      "Maalaussablunat",
-      "Polttoleimasimet",
-      "Nimineulat ja rintamerkit",
-      "Alue kartat",
-      "Ovisummeritaulut",
-      "Muistolaatat ja kirjaimet, Koristeet",
-      "Postilaatikkokilvet ja Talonnumerot",
-      "Painotyöt ja Tulosteet",
-      "UIMAHALLIOPASTEET",
-      "AUTOTEIPPAUKSET",
-      "Irtokirjaimet",
-      "Irtokirjaimet sisalle"
-    ],
-  },
-  {
-    name: "Palvelut",
-    link: "palvelut",
-    items: [
-      "Kaiverrustyöt",
-      "LASER merkintä ja -leikkaus",
-      "Muut erikoistuotteet",
-    ],
-  },
-  { name: "Esitteet", link: "esitteet", items: [] },
-  { name: "Tietoa meistä", link: "tietoa-meista", items: [] },
-  { name: "Yhteystiedot", link: "yhteystiedot", items: [] },
-  { name: "Tiedostojen siirto-ohjeet", link: "tiedostojen-siirto", items: [] },
-  { name: "Kuvia", link: "kuvia", items: [] },
-];
+    {
+      name: "Tuotteet",
+      link: "tuotteet",
+      items: [
+        { name: "Leimasimet", link: "leimasimet" },
+        { name: "Kilvet, Kyltit ja Laatat", link: "kilvet-kyltit-ja-laatat" },
+        { name: "Ulko-opasteet", link: "ulko-opasteet" },
+        { name: "Sisäopasteet", link: "sisaopasteet" },
+        { name: "Tarrat ja teippaukset", link: "tarrat-ja-teippaukset" },
+        { name: "Valomainokset", link: "valomainokset" },
+        { name: "Liikennemerkit ja Tienviitat, lisätarvikkeet", link: "liikennemerkit-ja-tienviitat-lisatarvikkeet" },
+        { name: "Leimasin- ja merkintävärit", link: "leimasin-ja-merkintavarit" },
+        { name: "Maalaussablunat", link: "maalaussablunat" },
+        { name: "Polttoleimasimet", link: "polttoleimasimet" },
+        { name: "Nimineulat ja rintamerkit", link: "nimineulat-ja-rintamerkit" },
+        { name: "Alue kartat", link: "alue-kartat" },
+        { name: "Ovisummeritaulut", link: "ovisummeritaulut" },
+        { name: "Muistolaatat ja kirjaimet, Koristeet", link: "muistolaatat-ja-kirjaimet-koristeet" },
+        { name: "Postilaatikkokilvet ja Talonnumerot", link: "postilaatikkokilvet-ja-talonnumerot" },
+        { name: "Painotyöt ja Tulosteet", link: "painotyot-ja-tulosteet" },
+        { name: "UIMAHALLIOPASTEET", link: "uimahalliopasteet" },
+        { name: "AUTOTEIPPAUKSET", link: "autoteippaukset" },
+        { name: "Irtokirjaimet", link: "irtokirjaimet" },
+        { name: "Irtokirjaimet sisalle", link: "irtokirjaimet-sisalle" }
+      ],
+    },
+    {
+      name: "Palvelut",
+      link: "palvelut",
+      items: [
+        { name: "Kaiverrustyöt", link: "kaiverrustyot" },
+        { name: "LASER merkintä ja -leikkaus", link: "laser-merkinta-ja-leikkaus" },
+        { name: "Muut erikoistuotteet", link: "muut-erikoistuotteet" },
+      ],
+    },
+    { name: "Esitteet", link: "esitteet", items: [] },
+    { name: "Tietoa meistä", link: "tietoa-meista", items: [] },
+    { name: "Yhteystiedot", link: "yhteystiedot", items: [] },
+    { name: "Tiedostojen siirto-ohjeet", link: "tiedostojen-siirto", items: [] },
+    { name: "Kuvia", link: "kuvia", items: [] },
+  ];
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +59,7 @@ export default function Header() {
   };
 
   return (
-    <div className=" w-full gap-3 bg-blue-600 flex flex-col justify-center items-center">
+    <div className=" w-full gap-3 bg-header-pattern bg-repeat flex flex-col justify-center items-center">
       <header className=' max-w-7xl p-4 w-full  text-white flex justify-between items-center'>
         <Link href={"/"}>
           <h1 className='text-3xl text-white font-bold'>FINNMareka Oy</h1>
@@ -92,16 +92,16 @@ export default function Header() {
                     </button>
                     {openAccordions.includes(item.name) && (
                       <ul className='pl-4 mt-2 space-y-1'>
-                        {item.items.map((subItem: string) => (
-                          <li key={subItem}>
+                        {item.items.map((subItem) => (
+                          <li key={subItem.name}>
                             <a
-                              href={`/${item.name.toLowerCase()}/${subItem
+                              href={`/${item.name.toLowerCase()}/${subItem.link
                                 .toLowerCase()
                                 .replace(/ /g, "-")}`}
                               className='text-blue-600 hover:underline block'
                               onClick={() => setIsMenuOpen(false)}
                             >
-                              {subItem}
+                              {subItem.name}
                             </a>
                           </li>
                         ))}

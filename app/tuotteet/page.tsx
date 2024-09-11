@@ -19,19 +19,19 @@ export default function Tuotteet() {
               <div className='h-48 bg-gray-200 relative'>
                 <img
                   src={`/api/placeholder/400/300?text=${category}`}
-                  alt={category}
+                  alt={category.name}
                   className='w-full h-full object-cover'
                 />
               </div>
               <div className='p-6'>
                 <h2 className='text-2xl font-bold mb-4 text-gray-800'>
-                  {category}
+                  {category.name}
                 </h2>
                 <p className='text-gray-600 mb-4'>
-                  {getProductDescription(category)}
+                  {getProductDescription(category.name)}
                 </p>
                 <a
-                  href={`/tuotteet/${category
+                  href={`/tuotteet/${category.link
                     .toLowerCase()
                     .replace(/ /g, "-")}`}
                   className='inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300'

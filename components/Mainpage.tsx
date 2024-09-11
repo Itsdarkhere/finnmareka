@@ -1,13 +1,16 @@
 "use client";
 import { navItems } from "./Header";
+import bg from "../public/bg.jpg"
+import Image from "next/image";
 
 export default function Mainpage() {
   return (
     <main className='w-full max-w-7xl mx-auto p-4'>
       <section className='mb-12'>
         <div className='relative h-64 md:h-96 rounded-lg overflow-hidden mb-6'>
-          <img
-            src='/api/placeholder/1200/400'
+          <Image
+            src={bg}
+            fill
             alt='FINNMareka Oy showcase'
             className='w-full h-full object-cover'
           />
@@ -45,14 +48,14 @@ export default function Mainpage() {
               {item.items.length > 0 ? (
                 <ul className='space-y-2'>
                   {item.items.slice(0, 5).map((subItem) => (
-                    <li key={subItem}>
+                    <li key={subItem.name}>
                       <a
-                        href={`/${item.name.toLowerCase()}/${subItem
+                        href={`/${item.name.toLowerCase()}/${subItem.link
                           .toLowerCase()
                           .replace(/ /g, "-")}`}
                         className='text-blue-600 hover:underline block'
                       >
-                        {subItem}
+                        {subItem.name}
                       </a>
                     </li>
                   ))}
