@@ -62,8 +62,8 @@ export default function Laser() {
         </h2>
         <div className='grid grid-cols-3 gap-4 text-center'>
           {["KAIVERRUS", "MERKKAUS", "IRTILEIKKAUS"].map((use, index) => (
-            <div key={index} className='bg-blue-100 p-4 rounded-lg shadow-md'>
-              <p className='text-lg font-semibold text-blue-600'>{use}</p>
+            <div key={index} className='bg-header-pattern p-4 rounded-lg shadow-md'>
+              <p className='text-lg font-semibold text-white'>{use}</p>
             </div>
           ))}
         </div>

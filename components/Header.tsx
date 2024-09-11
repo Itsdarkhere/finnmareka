@@ -41,7 +41,7 @@ export const navItems = [
     { name: "Esitteet", link: "esitteet", items: [] },
     { name: "Tietoa meistä", link: "tietoa-meista", items: [] },
     { name: "Yhteystiedot", link: "yhteystiedot", items: [] },
-    { name: "Tiedostojen siirto-ohjeet", link: "tiedostojen-siirto", items: [] },
+    { name: "Tiedostojen siirto-ohjeet", link: "tiedostojen-siirto-ohjeet", items: [] },
     { name: "Kuvia", link: "kuvia", items: [] },
   ];
 

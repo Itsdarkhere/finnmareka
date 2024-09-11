@@ -74,7 +74,7 @@ export default function Yhteystiedot() {
       <main className='grid md:grid-cols-2 gap-8'>
         <div>
           <section className='mb-8'>
-            <h2 className='text-3xl font-bold mb-4 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-4 text-white'>
               Toimipisteemme
             </h2>
             <div className='bg-white p-6 rounded-lg shadow-md'>
@@ -101,7 +101,7 @@ export default function Yhteystiedot() {
           </section>
 
           <section className='mb-8'>
-            <h2 className='text-3xl font-bold mb-4 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-4 text-white'>
               Aukioloajat
             </h2>
             <div className='bg-white p-6 rounded-lg shadow-md'>
@@ -118,7 +118,7 @@ export default function Yhteystiedot() {
           </section>
 
           <section>
-            <h2 className='text-3xl font-bold mb-4 text-blue-600'>Kartta</h2>
+            <h2 className='text-3xl font-bold mb-4 text-white'>Kartta</h2>
             <div className='bg-gray-200 h-64 rounded-lg flex items-center justify-center'>
               <p className='text-gray-600'>Kartta sijainnista tähän</p>
             </div>
@@ -127,7 +127,7 @@ export default function Yhteystiedot() {
 
         <div>
           <section className='mb-8'>
-            <h2 className='text-3xl font-bold mb-4 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-4 text-white'>
               Henkilöstö
             </h2>
             <div className='grid gap-4'>
@@ -138,7 +138,7 @@ export default function Yhteystiedot() {
           </section>
 
           <section className='mb-8'>
-            <h2 className='text-3xl font-bold mb-4 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-4 text-white'>
               Siirtyneet eläkkeelle
             </h2>
             <div className='grid gap-4'>
@@ -149,7 +149,7 @@ export default function Yhteystiedot() {
           </section>
 
           <section>
-            <h2 className='text-3xl font-bold mb-4 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-4 text-white'>
               Kuvagalleria
             </h2>
             <div className='grid grid-cols-2 gap-4'>

@@ -21,7 +21,7 @@ export default function TiedostojenSiirto() {
       <main className='grid md:grid-cols-3 gap-8'>
         <div className='md:col-span-2'>
           <section className='mb-12'>
-            <h2 className='text-3xl font-bold mb-6 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-6 text-white'>
               Ohjelmatiedostot
             </h2>
             <ul className='list-disc pl-5 space-y-2'>
@@ -37,14 +37,14 @@ export default function TiedostojenSiirto() {
             </p>
             <a
               href='#'
-              className='text-blue-600 hover:underline mt-2 inline-block'
+              className='text-blue-500 hover:underline mt-2 inline-block'
             >
               Opastus vektorointiin tästä.
             </a>
           </section>
 
           <section className='mb-12'>
-            <h2 className='text-3xl font-bold mb-6 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-6 text-white'>
               Värikoodit
             </h2>
             <div className='grid md:grid-cols-2 gap-4'>
@@ -67,7 +67,7 @@ export default function TiedostojenSiirto() {
           </section>
 
           <section className='mb-12'>
-            <h2 className='text-3xl font-bold mb-6 text-blue-600'>
+            <h2 className='text-3xl font-bold mb-6 text-white'>
               Tiedostomuodot
             </h2>
             <div className='grid md:grid-cols-2 gap-8'>
