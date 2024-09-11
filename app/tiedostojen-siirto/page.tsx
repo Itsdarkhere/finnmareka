@@ -61,7 +61,7 @@ export default function TiedostojenSiirto() {
                 </a>
               </div>
             </div>
-            <p className='mt-4 text-sm text-gray-600'>
+            <p className='mt-4 text-sm text-gray-500'>
               (huomioithan näytön kalibroinnin sävyerot)
             </p>
           </section>

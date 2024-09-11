@@ -1,5 +1,6 @@
 "use client";
 import { Menu, X, ChevronDown, ChevronUp } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export const navItems = [
@@ -54,10 +55,10 @@ export default function Header() {
   return (
     <div className=" w-full gap-3 bg-blue-600 flex flex-col justify-center items-center">
       <header className=' max-w-7xl p-4 w-full  text-white flex justify-between items-center'>
-        <div>
+        <Link href={"/"}>
           <h1 className='text-3xl font-bold'>FINNMareka Oy</h1>
           <p className='text-xl'>Leimasintehdas, kilpitehdas, kaivertamo</p>
-        </div>
+        </Link>
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
