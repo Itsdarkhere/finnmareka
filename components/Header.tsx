@@ -62,8 +62,8 @@ export default function Header() {
     <div className=" w-full gap-3 bg-blue-600 flex flex-col justify-center items-center">
       <header className=' max-w-7xl p-4 w-full  text-white flex justify-between items-center'>
         <Link href={"/"}>
-          <h1 className='text-3xl font-bold'>FINNMareka Oy</h1>
-          <p className='text-xl'>Leimasintehdas, kilpitehdas, kaivertamo</p>
+          <h1 className='text-3xl text-white font-bold'>FINNMareka Oy</h1>
+          <p className='text-sm text-white'>Leimasintehdas, kilpitehdas, kaivertamo</p>
         </Link>
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -109,13 +109,13 @@ export default function Header() {
                     )}
                   </div>
                 ) : (
-                  <a
-                    href={`#${item.name.toLowerCase().replace(/ /g, "-")}`}
+                  <Link
+                    href={`/${item.name.toLowerCase().replace(/ /g, "-")}`}
                     className='text-blue-600 hover:underline block'
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 )}
               </li>
             ))}
